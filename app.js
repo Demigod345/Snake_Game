@@ -9,8 +9,12 @@ var directionX = 10;
 var directionY = 0;
 var dots = [];
 var highScore = localStorage.getItem("highScore") || 0;
+
+
 const WIDTH = 400;
 const HEIGHT = 400;
+canvas.width= WIDTH;
+canvas.height= HEIGHT;
 
 class snake{
   constructor(x,y, dirx, diry, len, arr){
@@ -24,7 +28,6 @@ class snake{
 }
 
 const s= new snake( 0,0,10,0,1,[])
-console.log(s.snakeLength);
 
 document.addEventListener("keydown", changeDirection);
 
