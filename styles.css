@@ -28,3 +28,11 @@ div{
     justify-content: center;
     margin: 1rem auto;
 }
+
+body {
+    background-image: url("./background-common.svg");
+
+    background-size: contain;
+    background-position: center center;
+
+}

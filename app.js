@@ -52,7 +52,7 @@ function changeDirection(event) {
 }
 
 function spawnDots() {
-  if (dots.length < 1) {   
+  if (dots.length < 1) {
     var dotX = Math.floor((Math.random() * canvas.width) / 10) * 10;
     var dotY = Math.floor((Math.random() * canvas.height) / 10) * 10;
     dots.push({ x: dotX, y: dotY });
@@ -96,7 +96,7 @@ function checkCollision() {
 function gameOver() {
   alert("Game Over!");
   gameEnded = true;
-  snakeSegments=[];
+  snakeSegments = [];
   snakeX = 0;
   snakeY = 0;
   directionX = 0;
