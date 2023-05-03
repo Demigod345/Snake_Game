@@ -1,0 +1,30 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#game{
+    width: 40rem;
+    height: 40rem;
+    margin: 0 auto;
+    background-color: lightgray;
+    z-index: -1;
+}
+h2{
+    text-align: center;
+    font-family: Arial;
+    font-size: 3.6rem;
+    margin: 2rem auto;
+}
+
+div{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
