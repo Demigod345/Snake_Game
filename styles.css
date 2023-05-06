@@ -30,7 +30,7 @@ div{
 }
 
 body {
-    background-image: url("./background-common.svg");
+    background-image: url("./Assets/background-common.svg");
 
     background-size: contain;
     background-position: center center;
